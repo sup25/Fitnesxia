@@ -24,13 +24,24 @@ export default {
           justifyContent: "center",
           padding: "0 10px",
         },
+        ".container": {
+          maxWidth: theme("maxWidth.container"),
+        },
+        ".heading": {
+          fontSize: "48px",
+          lineHeight: "1",
+          fontWeight: "800",
+          textTransform: "uppercase",
+        },
         "@media screen and (min-width: 768px)": {
           ".section": {
             padding: "0 30px",
           },
         },
-        ".container": {
-          maxWidth: theme("maxWidth.container"),
+        "@media screen and (max-width: 768px)": {
+          ".heading": {
+            fontSize: "24px;",
+          },
         },
       });
     }),
