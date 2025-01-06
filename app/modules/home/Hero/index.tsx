@@ -7,7 +7,7 @@ import Calories from "./components/calories";
 
 const HeroComponent = () => {
   return (
-    <div className="section  bg-gradient-to-b from-transparent via-[#37383c] to-[#3B2625] opacity-80">
+    <div className="section  bg-gradient-to-b from-transparent via-[#37383c] to-[#3B2625] ">
       <div className="container">
         <div className="lg:flex-row flex flex-col w-full justify-between">
           <div className="relative mt-10">

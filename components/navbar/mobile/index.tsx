@@ -12,7 +12,7 @@ const MobileMenu = () => {
   };
 
   return (
-    <div className="md:hidden relative">
+    <div className="lg:hidden relative">
       {!isOpen && (
         <button
           onClick={toggleMenu}
