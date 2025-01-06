@@ -2,10 +2,11 @@
 import Button from "@/components/button";
 import { useState } from "react";
 import { NavLinks } from "../NavLInks";
+import { usePathname } from "next/navigation";
 
 const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+  const pathname = usePathname();
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -49,15 +50,15 @@ const MobileMenu = () => {
         <div className="p-6 flex flex-col gap-6">
           {/* Navigation Items */}
           <nav className="flex flex-col gap-4">
-            {NavLinks.map((link, index) => (
-              <a
-                key={index}
-                href={link.href}
-                className="text-lg font-medium text-gray-800 hover:text-blue-600 transition-colors"
-                onClick={toggleMenu}
+            {NavLinks.map((navLink) => (
+              <div
+                key={navLink.title}
+                className={`${
+                  pathname === navLink.path ? "text-red-500" : "text-black"
+                }`}
               >
-                {link.title}
-              </a>
+                {navLink.title}
+              </div>
             ))}
           </nav>
           <Button>Sign Up</Button>
