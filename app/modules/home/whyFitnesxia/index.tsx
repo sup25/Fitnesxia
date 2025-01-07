@@ -8,7 +8,7 @@ import BurnRate from "./burnRate";
 
 const WhyFitnesxia = () => {
   return (
-    <div className="section mt-[72px] pt-20 bg-[#3a3b3f]">
+    <div className="section mt-[72px] py-20  bg-[#3a3b3f]">
       <div className="container">
         <div className=" flex w-full justify-between flex-wrap gap-5">
           <div className="flex flex-col z-10">
@@ -31,7 +31,7 @@ const WhyFitnesxia = () => {
             <Button className="w-[140px] p-3 mt-9">Join Today</Button>
           </div>
           <div className="relative lg:w-1/2 z-0 flex justify-center overflow-hidden">
-            <div className="absolute z-0 bg-orange-400 rounded-full lg:w-[500px] lg:h-[500px] w-[250px] h-[250px] -bottom-8  "></div>
+            <div className="absolute z-0 bg-orange-400 rounded-full lg:w-[500px] lg:h-[500px] w-[250px] h-[250px] bottom-0 "></div>
             <HearRate />
             <BurnRate />
             <Image
@@ -39,7 +39,7 @@ const WhyFitnesxia = () => {
               width={800}
               height={500}
               alt=""
-              className="object-cover relative z-10 max-w-[500px]"
+              className="object-cover relative z-10 max-w-[500px] rounded-full"
             />
           </div>
         </div>
