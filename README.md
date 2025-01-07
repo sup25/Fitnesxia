@@ -9,11 +9,10 @@ Welcome to **Fitnesxia**, a cutting-edge project built using **Next.js 15**. Thi
 1. [Features](#features)
 2. [Getting Started](#getting-started)
 3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Project Structure](#project-structure)
-6. [Tech Stack](#tech-stack)
-7. [Contributing](#contributing)
-8. [License](#license)
+4. [Project Structure](#project-structure)
+5. [Tech Stack](#tech-stack)
+6. [Contributing](#contributing)
+7. [License](#license)
 
 ---
 
