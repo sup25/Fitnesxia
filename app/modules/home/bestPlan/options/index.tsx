@@ -5,11 +5,11 @@ import { GiCheckMark } from "react-icons/gi";
 
 const Options = () => {
   return (
-    <div className="mt-12 w-full flex flex-wrap gap-8 justify-center">
+    <div className="mt-12 w-full flex flex-wrap gap-8 justify-center md:justify-between">
       {ChoiceOne.map((item, index) => (
         <div
           key={index}
-          className={`flex flex-col items-start px-10 py-7 rounded-lg w-full max-w-[350px]
+          className={`flex flex-col items-start px-10 py-7 rounded-lg w-full max-w-[370px]
             ${
               index === Math.floor(ChoiceOne.length / 2)
                 ? "bg-[#FF662D] md:scale-110"
@@ -23,7 +23,7 @@ const Options = () => {
           <div className="flex flex-col gap-8 mt-10">
             <p className={`text-white md:text-5xl text-2xl font-semibold mt-2`}>
               {item.price}
-              <span className="md:text-xl text:sm font-normal ml-3">
+              <span className="md:text-xl text-sm font-normal ml-3">
                 / per month
               </span>
             </p>
@@ -65,16 +65,16 @@ const Options = () => {
               </p>
             )}
           </div>
-          <div className="flex w-full items-center justify-center mt-[38px] ">
-            <Button
+          <div className="flex w-full items-center justify-center mt-[38px]">
+            <div
               className={`${
                 index === Math.floor(ChoiceOne.length / 2)
                   ? "bg-white text-[#FF662D]"
-                  : "bg-transparent border-white"
-              } rounded-3xl border-2 w-[188px] hover:bg-[#FF662D] hover:text-white`}
+                  : "bg-transparent text-white border-white"
+              } rounded-3xl border-2 w-[188px] p-3 cursor-pointer flex items-center justify-center font-semibold hover:bg-[#FF662D] hover:text-white`}
             >
               Choose Plan
-            </Button>
+            </div>
           </div>
         </div>
       ))}
