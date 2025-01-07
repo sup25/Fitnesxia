@@ -42,13 +42,7 @@ Follow the steps below to set up the project locally:
    git clone https://github.com/sup25/Fitnesxia
    ```
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd fitnesxia
-   ```
-
-3. Install dependencies:
+2. Install dependencies:
 
    ```bash
    npm install
