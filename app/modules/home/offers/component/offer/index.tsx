@@ -7,7 +7,7 @@ const Offer = () => {
       {Options.map((option, index) => (
         <div
           key={index}
-          className={`flex flex-col items-start gap-5 max-w-[300px] p-5 rounded-lg ${
+          className={`flex flex-col items-start gap-5 md:max-w-[300px] max-w-full p-5 rounded-lg ${
             option.active ? "bg-[#FF662D]" : "bg-[#464646]"
           }`}
         >

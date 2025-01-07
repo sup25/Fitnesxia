@@ -5,7 +5,7 @@ import Badge from "./component/badge";
 
 const FreeTrial = () => {
   return (
-    <div className="section my-28">
+    <div className="section md:my-28 my-12">
       <div className="container">
         <div className="flex w-full justify-between items-center flex-wrap gap-10">
           <div className="relative">
