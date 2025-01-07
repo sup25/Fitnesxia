@@ -7,7 +7,7 @@ const Offers = () => {
       <div className="container">
         <div className="flex flex-col">
           <div className="flex w-full justify-between flex-wrap gap-5">
-            <h2 className="heading text-white capitalize leading-normal md:max-w-[515px] max-w-full">
+            <h2 className="heading font-semibold text-white capitalize leading-normal md:max-w-[515px] max-w-full">
               The best programs we offers for you
             </h2>
             <p className="text-white text-base md:max-w-[430px] max-w-full">
