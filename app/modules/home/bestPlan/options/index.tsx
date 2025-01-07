@@ -1,6 +1,5 @@
 import React from "react";
 import { ChoiceOne } from "./choices";
-import Button from "@/components/button";
 import { GiCheckMark } from "react-icons/gi";
 
 const Options = () => {
