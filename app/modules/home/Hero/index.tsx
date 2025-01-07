@@ -48,9 +48,8 @@ const HeroComponent = () => {
               src="/images/imgTwo.png"
               width={500}
               height={550}
-              objectFit="cover"
-              objectPosition="top"
               alt=""
+              className="object-cover object-top"
             />
             <div className="absolute lg:left-[120px] left-[50px] top-[300px] lg:top-[330px]">
               <Calories />
