@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="section">
       <div className="container">
-        <div className="w-full flex items-center justify-between py-12 ">
+        <div className="w-full flex items-center justify-between md:py-12 py-6 ">
           <div className="flex items-center gap-4">
             <FaDumbbell size={30} className="text-red-500" />
             <p className="uppercase font-semibold text-white ">Fitnesxia</p>
