@@ -1,8 +1,6 @@
-# Darse
+# Fitnesxia
 
-Welcome to **Darse**, a cutting-edge project built using **Next.js 15**. This project aims to provide an exceptional user experience with modern web development practices.
-
-![Darse](https://via.placeholder.com/1200x400) <!-- Replace with a screenshot or banner of your project -->
+Welcome to **Fitnesxia**, a cutting-edge project built using **Next.js 15**. This project aims to provide an exceptional user experience with modern web development practices.
 
 ## Table of Contents
 
