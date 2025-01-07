@@ -19,6 +19,7 @@ export const Options = [
     heading: "Body Building",
     description:
       "For those looking to increase strength build lean muscle, our strenth and muscle.",
+    active: true,
   },
   {
     icon: <FaPersonRunning size={50} className="text-white " />,
