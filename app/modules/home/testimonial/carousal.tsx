@@ -22,9 +22,9 @@ const Carousel = () => {
         </div>
         ⭐⭐⭐⭐⭐
         <p className="text-white mt-6 md:max-w-[356px] max-w-full">
-          I've been coming to this gym for 3 years now and I've never been in
-          better shape. The trainers are amazing and they always push me be my
-          best. I'm so glad to this gym.
+          I&apos;ve been coming to this gym for 3 years now and I&apos;ve never
+          been in better shape. The trainers are amazing and they always push me
+          be my best. I&apos;m so glad to this gym.
         </p>
       </div>
 

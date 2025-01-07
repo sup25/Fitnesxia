@@ -10,10 +10,12 @@ const BestPlan = () => {
           <h2 className="heading font-semibold capitalize leading-normal text-white">
             Choose the best plan
           </h2>
+
           <p className="text-white mt-9">
-            Choose a plan that's right for your growing team. Simple pricing and
-            no hidden charges.
+            Choose a plan that&apos;s right for your growing team. Simple
+            pricing and no hidden charges.
           </p>
+
           <Toggler />
           <Options />
         </div>
