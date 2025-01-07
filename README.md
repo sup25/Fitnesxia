@@ -12,7 +12,6 @@ Welcome to **Fitnesxia**, a cutting-edge project built using **Next.js 15**. Thi
 4. [Project Structure](#project-structure)
 5. [Tech Stack](#tech-stack)
 6. [Contributing](#contributing)
-7. [License](#license)
 
 ---
 
@@ -199,9 +198,5 @@ Contributions are welcome! Follow these steps to contribute:
    ```
 
 5. Open a pull request on the `main` branch.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
