@@ -18,7 +18,7 @@ const Contacts = () => {
               <IoIosMail size={20} className="text-red-500" />
               {Contact.email}
             </p>
-            <p className="text-white flex items-center gap-2 max-w-52">
+            <p className="text-white flex items-start gap-2 max-w-52">
               <FaLocationDot className="text-red-500" />
               {Contact.address}
             </p>

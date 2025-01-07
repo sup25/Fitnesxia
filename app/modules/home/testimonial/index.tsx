@@ -4,7 +4,7 @@ import Carousel from "./carousal";
 
 const Testimonial = () => {
   return (
-    <div className="section">
+    <div className="section pb-[100px]">
       <div className="container">
         <div className="flex w-full justify-between flex-wrap gap-5">
           <div className="flex flex-col">

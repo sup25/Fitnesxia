@@ -31,7 +31,7 @@ const WhyFitnesxia = () => {
             <Button className="w-[140px] p-3 mt-9">Join Today</Button>
           </div>
           <div className="relative lg:w-1/2 z-0 flex justify-center overflow-hidden">
-            <div className="absolute z-0 bg-orange-400 rounded-full lg:w-[500px] lg:h-[500px] w-[250px] h-[250px] bottom-0 "></div>
+            <div className="absolute z-0 bg-[#FF662D] rounded-full lg:w-[500px] lg:h-[500px] w-[250px] h-[250px] bottom-0 "></div>
             <HearRate />
             <BurnRate />
             <Image

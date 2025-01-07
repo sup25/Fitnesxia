@@ -7,7 +7,7 @@ import Socials from "./socials";
 
 const Footer = () => {
   return (
-    <div className="section my-16 ">
+    <div className="section py-16 bg-[#3a3b3f] ">
       <div className="container">
         <div className="w-full flex flex-wrap">
           <div className="flex flex-col w-full">
