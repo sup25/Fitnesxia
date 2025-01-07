@@ -38,13 +38,13 @@ Follow the steps below to set up the project locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/sup25/darse.git
+   git clone https://github.com/sup25/Fitnesxia
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd darse
+   cd fitnesxia
    ```
 
 3. Install dependencies:
