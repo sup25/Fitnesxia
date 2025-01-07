@@ -2,6 +2,8 @@
 
 Welcome to **Fitnesxia**, a cutting-edge project built using **Next.js 15**. This project aims to provide an exceptional user experience with modern web development practices.
 
+🌐 Visit the live website: [Fitnesxia](https://fitnesxia.vercel.app)
+
 ## Table of Contents
 
 1. [Features](#features)
@@ -21,7 +23,6 @@ Welcome to **Fitnesxia**, a cutting-edge project built using **Next.js 15**. Thi
 - SEO-friendly with optimized page structures.
 - Fully responsive design, compatible with all devices.
 - Modern UI components powered by **Tailwind CSS**.
-- API integration for dynamic data handling.
 - Modular and scalable architecture.
 
 ## Getting Started
