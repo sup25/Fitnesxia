@@ -175,8 +175,6 @@ npm start
 
 - **Framework**: [Next.js 15](https://nextjs.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **State Management**: Context API or Zustand (optional)
-- **API Integration**: Axios or Fetch API
 
 ## Contributing
 
