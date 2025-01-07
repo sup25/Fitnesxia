@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-
 import { FaDumbbell } from "react-icons/fa6";
 import Button from "../button";
 import MobileMenu from "./mobile";
